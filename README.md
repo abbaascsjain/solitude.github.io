@@ -3,6 +3,8 @@ Mundargi Rd, Panchal Nagar, Kalyan Nagar, Gadag-Betageri, Gadag-Betigeri, Karnat
 OOPS IN CPP THIRD SEMESTER....
 
 1] Develop a C++ program to find the largest of three numbers.
+
+
 #include <iostream>   //HEADER FILES
 using namespace std;
 int main()
@@ -17,7 +19,10 @@ int main()
             else
                     cout<<"THE GREATEST IS :"<<c;
     return 0;
-}    
+}  
+
+
+  
 OUTPUT:
 ENTER THREE VALUES   : 2
 3
@@ -25,6 +30,9 @@ ENTER THREE VALUES   : 2
 THE GREATEST IS   : 4
 
 2] Develop a C++ program to sort the elements in ascending and descending order.
+
+
+
 #include <iostream>
 using namespace std;
 int main()
@@ -73,6 +81,9 @@ cin>>n;
 }
 return 0;
 }
+
+
+
 OUTPUT:
 enter n for the numbers you want to sort
 3
@@ -90,7 +101,12 @@ ascending
  3
  2
  1
+
+
+
 3] Develop a C++ program using classes to display student name, roll number, marks obtained in two subjects and total score of the student.
+
+
 #include <iostream>
 using namespace std;
 
@@ -125,6 +141,9 @@ cout << "The name of the student is: " << s1.name << endl;
   cout << "The total score of the student is: " << s1.total_score() << endl;
 return 0;
 }
+
+
+
 OUTPUT:
 Enter the name of the student: XYZ
 Enter the roll number of the student: 80
@@ -137,6 +156,8 @@ The marks of the student in subject 2 are: 87
 The total score of the student is: 187
 4] Develop a C++ program for a bank empolyee to print name of the employee, account_no. & balance. 
 Print invalid balance if amount<500, Display the same, also display the balance after the  withdraw and deposit. 
+
+
 #include<iostream>
 #include<stdio.h>
 #include<string.h>
@@ -212,6 +233,8 @@ cout<<"\n Invalid";
  }
  return 0;
 }
+
+
 OUTPUT:
 Enter Details: 
 -----------------------
@@ -234,9 +257,15 @@ Enter Details:
  Account Type : Savings
  Balance  : 20
  Invalid
+
+
+
 5] Develop a C++ program to demonstrate function overloading for the following prototypes.
  add(int a, int b) 
  add(double a, double b) .
+
+
+
 #include <iostream>
 using namespace std;
 void add(int a, int b)
@@ -253,9 +282,14 @@ void add(int a, int b)
     add(5.3, 6.2);
     return 0;
 }
+
+
 OUTPUT:
 sum = 12
 sum = 11.5
+
+
+
 6] Develop a C++ program using Operator Overloading for overloading Unary minus operator.
 #include<iostream>
 using namespace std;
@@ -287,8 +321,15 @@ int main()
     cout << endl;
     return 0;
 }
+
+
 OUTPUT:          value of n is: -10 .
+
+
+
 7] Develop a C++ program to implement Multiple inheritance for performing arithmetic operation of two numbers.
+
+
 #include <iostream>
 using namespace std;
 class base1
@@ -346,6 +387,8 @@ int main()
     ob2.show1();
     return 0; 
 }
+
+
 OUTPUT:
 ENTER TWO NUMBERS FOR THE MULTIPLICATION :2
 3
@@ -356,7 +399,11 @@ SUM=168
 ENTER TWO NUMBERS FOR THE DIFFERENCE :101
 79
 DIFFERENCE =22
+
+
 8] Develop a C++ program using Constructor in Derived classes to initialize alpha, beta and gamma and display corresponding values.
+
+
 #include <iostream>
 using namespace std;
 class Base
@@ -394,7 +441,9 @@ int main()
   cin >> gamma;
  Derived derived(alpha, beta, gamma);
  derived.display();
-return 0;   }
+return 0;   
+}
+
 OUTPUT:
 Enter the value of alpha: 12
 Enter the value of beta: 34
