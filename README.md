@@ -1,1 +1,1 @@
-# solitude.github.io
+Mundargi Rd, Panchal Nagar, Kalyan Nagar, Gadag-Betageri, Gadag-Betigeri, Karnataka 582101
